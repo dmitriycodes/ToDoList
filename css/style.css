@@ -1,0 +1,127 @@
+body {
+	font-family: sans-serif;
+	padding: 100px 0px;
+	margin: 0;
+	position: relative;
+	background: #5455ec;
+}
+ul,li {
+	list-style-type: none;
+	padding: 0;	
+	margin: 0;	
+}
+.wrapper {
+	width: 70%;
+	margin: 30px auto;
+	border-radius: 5px;
+	padding: 30px 0px;
+	position: relative;
+	z-index: 2;
+	background-color: rgba(255,255,255,.2);
+}
+.go {
+	width: 81%;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	margin: 15px auto 15px auto;
+	padding: 7px 10px;
+	font-size: 25px;
+	color: #fff;
+	background-color: #383ead;
+}
+.info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.info div{
+	margin: 0px 10px;
+	padding: 5px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 18px;
+}
+.add-list {
+	position: relative;
+	text-align: center;
+}
+.add-list a {
+	cursor: pointer;
+	position: fixed;
+	right: 6%;
+	text-decoration: none;
+	color: #fff;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-color: #7ccb31;
+	display: block;
+	text-align: center;
+	line-height: 45px;
+	top: 80px;
+}
+.add-list a:hover {
+	background-color: #8ce637;
+}
+#clear {
+	cursor: pointer;
+ position: fixed;
+ left: 6%;
+	top: 80px;
+ display: block;
+ width: 45px;
+ height: 45px;
+ border-radius: 50%;
+ background-color: #f24b4b;
+ color: #fff;
+ line-height: 45px;
+ text-decoration: none;
+ text-align: center;
+}
+#clear:hover {
+	background-color: #fb3232;
+}
+.task {
+	position: relative;
+	border-radius: 5px;
+	margin: 10px 50px 10px 0px;
+	padding: 10px 15px;
+	background-color: #61ba0c;
+	color: #fff;
+	font-weight: bold;
+	text-align: left;
+	width: 80%;
+	position: relative;
+	margin: 10px auto 10px auto;
+}
+.task-check {
+	text-decoration: line-through;
+	font-weight: normal;
+	background-color: #97ffa4;
+	color: #000;
+}
+.link-task {
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+}
+.task a:first-child {
+	position: absolute;
+ right: 17px;
+ top: 0px;
+ font-size: 15px;
+}
+.task a:hover:first-child {
+	color: blue;
+}
+.task a:last-child {
+	position: absolute;
+ right: 25px;
+ bottom: 1px;
+ font-size: 15px;
+}
+.task a:hover:last-child {
+	color: red;
+}
